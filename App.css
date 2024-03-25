@@ -1,0 +1,70 @@
+.user-details-table {
+  border-collapse: collapse;
+  width: 80%;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.user-details-table th,
+.user-details-table td {
+  
+  
+  border: 1px solid #ddd;
+  padding: 8px;
+  ;
+}
+
+.user-details-table th {
+  background-color: #f2f2f2;
+}
+
+.popup-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  width: 50%;
+  margin-left: 50px;
+}
+
+.popup-container input {
+  margin-bottom: 5px;
+}
+
+.popup-container button {
+  margin-top: 10px;
+}
+.editButton{
+  display: flex;
+  background-color: navy;
+  color: #ddd;
+}
+.header{
+  display: flex;
+  background-color: mediumblue;
+  color: #ddd;
+}
+.addUserButton{
+  display: flex;
+  margin-left: 1080px;
+}
+.userEntry{
+  display: flex;
+justify-content: center;
+width: 500px;
+border:solid;
+border-color: black;
+border-width: 2px;
+border-radius: 15px;
+margin-left: 300px;
+}
+.deleteButton{
+  display: flex;
+  margin-left: 10px;
+  background-color: red;
+  color: #ddd
+  
+}
+.buttonContainer{
+  display: flex;
+}
+
